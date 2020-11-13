@@ -1,0 +1,196 @@
+#navBarHaut{
+    /* background-image: url('/client/img/background-leopard-2.jpg'); */
+    z-index:60000;
+    color:white;
+    background-color: rgba(14, 14, 14, 0.99);
+    box-shadow: 0 0 15px black;
+    border-bottom: 5px solid rgb(212, 194, 174);
+}
+
+#navi{
+    text-align: center;
+    bottom:0px;
+}
+#navi a:hover{
+    background-color: rgba(75, 29, 29, 0.5);
+    color:white;
+    transition-duration: 0.5s;
+}
+/*BOUTONS NAVBARHAUT*/
+/* #nav{
+} */
+#boutonXSOnOffNavi{
+    z-index: 2000;
+    margin: auto;
+}
+
+#boutonXSOnOffNavi span{
+    background-color:white;
+}
+/* /* #CONNEXION{
+    margin:auto;
+} */
+#btnComptePerso{
+    background-color: rgba(255, 255, 255, 0.371);
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+}
+#btnComptePerso:hover{
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+#btnComptePerso:hover span{
+    color:black;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0);
+}
+.nav a{
+    font-size:125%;
+    color:white;
+    font-family: serif;
+    transition-duration: 0.5s;
+    text-transform: uppercase;
+}
+
+.nav a:hover{
+    font-size: 130%;
+    background-color: rgba(121, 22, 22, 0.205);
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    transition-duration: 0.5s;
+}
+/*sousmenu NAVBARHAUT*/
+/* #sousMenuHaut{
+    display:none;
+}
+#categories:hover #sousMenuHaut{
+    display:block;
+    margin-bottom:10px;
+    
+    box-shadow: 0 0 15px white;
+    
+} */
+/* #sousMenuHaut a{
+    font-size: 120%;
+    color:white;
+    text-transform: uppercase;
+}
+#sousMenuHaut a:hover{
+    font-size: 120%;
+    background-color: rgba(121, 22, 22, 0.205);
+} */
+
+
+/* menu CATEGORIES */
+
+#pageArticlesMenuCategories{
+    z-index:50000;
+    position:fixed;
+    top:90px;
+    /* left:0px; */
+    height:5%;
+    padding:0 30%;
+    /* background-color: rgba(66, 18, 18, 0.9); */
+    margin:auto;
+    /* background-image:url('/client/img/background-leopard-2.jpg'); */
+    transition-duration: 1s;
+}
+#pageArticlesMenuCategories:hover{
+    z-index:2500;
+    height:10%;
+    width:100%;
+    padding:0 200px;
+    background-color: rgba(134, 96, 38, 0.8);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+    transition-duration: 1s;
+}
+#VoirCategories{
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+    color:rgb(255, 255, 255); 
+    width:100%; 
+    margin: auto;
+    transition-duration: 1s;
+}
+#pageArticlesMenuCategories:hover #VoirCategories{
+    display:none;
+    transition-duration: 1s;
+}
+#Cg{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    /* left:0px; */
+}
+#Cg a{
+    display:none;
+    text-decoration: none;
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(0, 0, 0); */
+    font-size: 200%;
+    transition-duration: 1s;
+    text-transform: uppercase;
+    text-shadow: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.513);
+}
+#pageArticlesMenuCategories:hover #Cg a{
+    display:block;
+}
+#Cg .CgLiens{
+    color: rgb(255, 255, 255);
+    background-color: rgb(145, 75, 54)
+}
+#Cg .CgLiens:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(143, 33, 0);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+#TypeSacs{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#TypeSacs .TSliens{
+    display:none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 10px;
+}
+#pageArticlesMenuCategories:hover #TypeSacs .TSliens{
+    display:block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.513);
+    transition-duration: 1s;
+}
+#TypeSacs a:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+/* #pageArticlesMenuCategories a{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-right:1px solid black;
+    width:100%;
+    padding:5px;
+}
+#pageArticlesMenuCategories a:hover{
+    color: black;
+    background-color: rgb(156, 45, 45);
+    border-radius: 1px;
+    transition-duration: 1s;
+} */
+#menusCategories{
+    display:inline-block;
+    width:100%;
+}
+
+
+/*COTE GAUCHE DE LA NAVBARHAUT*/
+#connexion{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#connexion li a{
+    color:white
+}
+#connexion li:hover a{
+    color:black;
+}

@@ -1,0 +1,23 @@
+
+body{height:100%;background-image: url('/img/fondMain.jpg');}
+
+
+
+/* main{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+} */
+/* main h2{margin-top:100px;} */
+/* main div{margin:25%;} */
+/* #blocks{
+    box-shadow: 0 0 5px black;
+} */
+
+#blocks h2{
+    box-shadow: 0 0 5px black;
+}
+
+#blocks div{
+    box-shadow: 0 0 5px black;
+}

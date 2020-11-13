@@ -1,0 +1,275 @@
+
+html {
+    overflow: visible;
+    overflow: scroll;
+    overflow-x: visible;
+}
+::-webkit-scrollbar {
+    /* width: 5px;  Resize scrollbar space */
+    background: rgba(0, 0, 0, 0.8);  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: rgb(141, 103, 32);
+}
+
+body{
+    text-align:center;
+    font-family: serif;
+  
+    /* flex-direction:column; */
+}
+
+/* LES DIFFERENTS ECRANS */
+
+
+/* PAGE ACCUEIL*/
+@media (max-width: 1900px) {
+    #titrePageArticle{
+        font-size:1000%;
+        margin-bottom:50px;
+    }
+    #monCarousel{
+        margin-top:5%;
+    }
+    #partiesDeMain1{
+        width:50%;
+    }
+}
+@media (max-width: 1500px) {
+    #monCarousel{
+        margin-top:8%;
+    }
+}
+@media (max-width: 1100px) {
+    #monCarousel{
+        margin-top:10%;
+    }
+    .parent1TM{
+        display: flex;
+        flex-direction: column;
+    }
+    .parent1TMdiv{
+        margin-top:50px;
+    }
+}
+@media (min-width: 1000px) {
+    #navi a{
+        margin-top:20px;
+    }
+    #test h1{
+        font-size:1000%;
+    }
+}@media (max-width: 933px) {
+    /* #navBarHaut #CONNEXION{
+        position:absolute;
+        right: 50px;
+        top:20%;
+     } */
+     #test h1{
+        font-size:500%;
+    }
+}
+@media (min-width: 770px) {
+    #logoOcciXS{
+        display: none;
+        color: white;
+        font-size:25px;
+        margin:auto;
+    }
+    #btnComptePerso{
+        margin-top:50%;
+    }
+    #boutonXSOnOffNavi{
+        display:none;
+    }
+    #boutonXSOnOffNavi button{
+        display:none;
+    }
+    #titreDePartieDeMain{
+        width:50%;
+    }
+}
+@media (max-width: 770px) {
+    #monCarousel{
+        /* max-height:520px; */
+        margin-top:150px;
+    }
+    #monCarousel a{
+        width:100%;
+        font-size: 150%;
+    }
+    #monCarousel h3{
+        font-size:150%;
+        margin:15% 0;
+    }
+    #boutonXSOnOffNavi{
+        display:block;
+    }
+    
+    #btnComptePerso{
+        width:100%;
+        height:100%;
+        
+    }
+    #logOcciLG{
+        display:none;
+    }
+    #logoOcciXS{
+        display: block;
+        z-index: 10;
+        width:300px;
+        margin:auto;
+        top:150px;
+    }
+    #GROSBLOCK{
+        margin-top:50px;
+    }
+    #logoOcci{
+        display:none;
+    }
+    #navBarHaut #CONNEXION{
+        z-index:2600;
+       
+        right: 10px;
+        top:80%;
+     }
+    #topModeles{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .card{
+        min-width:280px;
+    }
+    #Test{
+        margin-top:50px;
+    }
+
+    #pageArticlesMenuCategories{
+        display:none;
+    }
+    .cacherSousMenu{
+        display:none;
+    }
+    #sousCat ol, #sousCatFleche{
+        display:none;
+    }
+    #sousCat:hover .cacherSousMenu{
+        display:none;
+    }
+    #sousCat:hover .n1{
+        display:block;
+    }
+    #sousCat:hover #c-ind{
+        display:none;
+    }
+    #sousCat:hover #c-inn{
+        display:block;
+    }
+    #c-inn{
+        display:block;
+    }
+    #mainDeLaPageCategories #Test h2{
+        font-size: 450%;
+    }
+    #titrePageArticle{
+        font-size:520%;
+        margin-bottom:50px;
+    }
+    /* main #etapes-achat ul{
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    } */
+}
+@media (max-width: 768px) {
+    /* #monCarousel{
+        margin-top:40%;
+    } */
+    /* #navBarHaut #CONNEXION{
+        z-index:2600;
+      
+        right: 90%;
+        top:80%;
+    } */
+    #titreDePartieDeMain{
+       font-size: 250%;
+    }
+    #etapes-achat{
+        display:flex;
+        flex-direction: column;
+    }
+}
+@media (min-width: 600px) {
+    #logoOcciXS{
+        margin:0 60px;
+        z-index: 10;
+    }
+    #naviFooter{
+        width:100%;
+    }
+}
+@media (max-width: 600px) {
+    /* #nomDuSiteXS img{
+        z-index: 10;
+        text-shadow: black;
+        font-family: serif;
+        font-style: bold;
+        font-size: 0px;
+        margin: 0 auto 0 auto;
+        background-color: rgb(0, 0, 0);
+        color:white;
+    } */
+    #navBarHaut #CONNEXION{
+        z-index:2600;
+      
+        right: 88%;
+        top:80%;
+    }
+    #test h1{
+        font-size:400%;
+    }
+    #partiesDeMain1{
+        width:100%;
+    }
+}
+@media (max-width: 500px) {
+    header{
+        width:100%;
+
+    }
+    main{
+        width:100%;
+    }
+    /* main{
+        left:5%;
+    } */
+    #navBarHaut #CONNEXION{
+        z-index:2600;
+      
+        right: 85%;
+        top:75%;
+    }
+    /* #monCarousel{
+        margin-top:45%;
+    } */
+    #logoOcciXS{
+        
+        z-index: 10;
+    }
+    #etapes-achat{
+        display:flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 350px) {
+    /* #monCarousel{
+        margin-top:50%;
+    } */
+}
+
+
+
+/* PAGE ARTICLES */
