@@ -124,7 +124,7 @@ body{
         display: block;
         z-index: 10;
         position: absolute;
-        width:300px;
+        width:250px;
         margin:auto;
         top:0px;
     }
