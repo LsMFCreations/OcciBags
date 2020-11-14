@@ -138,13 +138,16 @@ body{
         display:flex;
         flex-direction: column;
     }
-
+    #topModeles::-webkit-scrollbar {
+        width: 20px;  /*Resize scrollbar space*/
+        background: rgba(0, 0, 0, 0.8);  /* Optional: just make scrollbar invisible */
+    }
     .card{
-        width:280px;
+        width:250px;
         opacity:1;
     }
     .parent1TMdiv:hover .card{
-        width:280px;
+        width:250px;
         opacity:1;
     }
     #Test{

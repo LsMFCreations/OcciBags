@@ -6,7 +6,7 @@ html {
     overflow-x: visible;
 }
 ::-webkit-scrollbar {
-    /* width: 5px;  Resize scrollbar space */
+    width: 10px;  /*Resize scrollbar space*/
     background: rgba(0, 0, 0, 0.8);  /* Optional: just make scrollbar invisible */
 }
 
