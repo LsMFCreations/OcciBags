@@ -114,6 +114,8 @@ body{
     }
     #boutonXSOnOffNavi button{
         display:block;
+        right:-15px;
+        top:0px;
     }
     #btnComptePerso{
         width:100%;
@@ -129,7 +131,7 @@ body{
         position: absolute;
         width:300px;
         margin:auto;
-        top:0px;
+        top:-20px;
     }
     #GROSBLOCK{
         margin-top:50px;
