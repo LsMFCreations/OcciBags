@@ -22,7 +22,7 @@
 } */
 #boutonXSOnOffNavi{
     z-index: 2000;
-    margin: auto;
+    right:0px;
     top:20px;
 }
 
