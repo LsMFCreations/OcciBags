@@ -20,7 +20,11 @@ main{
     /* margin:auto; */
     
 }
-
+#blocksSC{
+    display:flex; 
+    flex-wrap: nowrap;
+    min-height: 250px;
+}
 table{
     display:flex; 
     flex-direction: column; 

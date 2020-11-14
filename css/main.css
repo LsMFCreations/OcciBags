@@ -355,11 +355,29 @@ div.carousel-caption a:hover{
 #TopMODELES{
     margin:auto;
 }
-
+.cardsPageArticle{
+    margin:10px;
+}
+.cardsPageArticle:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    border-radius:5px;
+    box-shadow: 0 0 1px black;
+}
+.cardsPageArticle:hover #carouselTopSacamain h3, .cardsPageArticle:hover #carouselTopBandoulière h3, .cardsPageArticle:hover #carouselTopItBag h3, .cardsPageArticle:hover #carouselTopBanane h3{
+    background-color: rgba(255, 255, 255, 0.8);
+    color:black;
+}
+.cardsPageArticle:hover img{
+    opacity: 1;
+}
+.cardsPageArticle img{
+    opacity:0.9;
+}
 .card {
     /* opacity:0;
     height:0px; */
-    min-width:350px;
+    width:400px;
     background-color: rgba(255, 255, 255, 0);
     opacity:0.95;
     margin:0 20px;
@@ -377,8 +395,8 @@ div.carousel-caption a:hover{
 } */
 .parent1TMdiv:hover .card{
     opacity:1;
-    height:100%;
-    min-width:410px;
+    /* height:100%; */
+    width:400px;
     font-size:20px;
     transition-delay: 0s;
     color:white;
@@ -555,15 +573,18 @@ div.carousel-caption a:hover{
     border-radius: 5px;
     color:rgb(34, 34, 34);
 }
+#etapes-achat div:hover h4{
+    color: rgb(255, 255, 255);
+    background-color: rgb(126, 34, 34);
+}
 #etapes-achat div p{
     padding-left:2.5%;
     line-height: 20px;
     font-size: 16px;
     color: rgb(0, 0, 0);
 }
-#etapes-achat div:hover h4{
-    color: rgb(255, 255, 255);
-    background-color: rgb(126, 34, 34);
+#etapes-achat div a{
+    text-decoration: none;
 }
 
 

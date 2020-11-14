@@ -140,7 +140,12 @@ body{
     }
 
     .card{
-        min-width:280px;
+        width:280px;
+        opacity:1;
+    }
+    .parent1TMdiv:hover .card{
+        width:280px;
+        opacity:1;
     }
     #Test{
         margin-top:50px;
@@ -176,6 +181,10 @@ body{
     #titrePageArticle{
         font-size:520%;
         margin-bottom:50px;
+    }
+    #blocksSC{
+        display:flex; 
+        flex-direction: column;
     }
     /* main #etapes-achat ul{
         display:flex;
