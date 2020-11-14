@@ -52,6 +52,12 @@ body{
     .parent1TMdiv{
         margin-top:50px;
     }
+    #pageArticlesMenuCategories{
+        top:165px;
+    }
+    #mainDeLaPageCategories{
+        top:80px;
+    }
 }
 @media (min-width: 1000px) {
     #navi a{
@@ -124,7 +130,7 @@ body{
         display: block;
         z-index: 10;
         position: absolute;
-        width:250px;
+        width:300px;
         margin:auto;
         top:0px;
     }
