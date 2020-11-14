@@ -10,6 +10,7 @@
 #navi{
     text-align: center;
     bottom:0px;
+    top:20px;
 }
 #navi a:hover{
     background-color: rgba(75, 29, 29, 0.5);
@@ -22,6 +23,7 @@
 #boutonXSOnOffNavi{
     z-index: 2000;
     margin: auto;
+    top:20px;
 }
 
 #boutonXSOnOffNavi span{
@@ -185,12 +187,21 @@
 
 
 /*COTE GAUCHE DE LA NAVBARHAUT*/
+#i ul{
+    position: relative;
+    max-width:500px;
+    right:200px;
+}
+
 #connexion{
     background-color: rgba(0, 0, 0, 0.7);
 }
 #connexion li a{
-    color:white
+    color:white;
+    margin: auto;
+    font-size: 17px;
+    text-transform: none;
 }
-#connexion li:hover a{
+#connexion li a:hover{
     color:black;
 }
