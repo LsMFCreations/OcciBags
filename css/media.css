@@ -95,9 +95,6 @@ body{
     #titreDePartieDeMain{
         width:50%;
     }
-    #navBarHaut{
-        min-height:100px;
-    }
 }
 @media (max-width: 770px) {
     #monCarousel{
@@ -141,7 +138,7 @@ body{
         display:none;
     }
     #navBarHaut{
-        min-height:90px;
+        min-height:100px;
     }
     #navBarHaut #CONNEXION{
         z-index:2600;
